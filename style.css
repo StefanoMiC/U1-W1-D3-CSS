@@ -1,0 +1,38 @@
+body {
+  color: green;
+}
+
+a {
+  color: paleturquoise;
+}
+
+footer a {
+  color: palegreen;
+}
+
+h1 {
+  color: blue;
+}
+
+#titolo-principale {
+  color: violet;
+}
+
+h3 {
+  color: blue;
+}
+
+/* p {
+    font-weight: 900;
+} */
+
+.primary-copy strong {
+  color: red;
+}
+
+.primary-copy strong {
+  color: red;
+}
+
+strong {
+}

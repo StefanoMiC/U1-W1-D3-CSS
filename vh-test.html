@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100;500;800&display=swap"
+        rel="stylesheet">
+    <title>vh test</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Anek Devanagari', Arial, Helvetica, sans-serif;
+        }
+
+        div {
+            height: 100%;
+            background-color: aquamarine;
+        }
+
+        h1 {
+            font-size: 64px;
+            font-weight: 100;
+        }
+
+        .special {
+            font-size: 20px;
+            font-weight: 800;
+            background-color: aqua;
+        }
+
+        .container .special {
+            background-color: #e91e63;
+            color: red;
+        }
+
+        /* 
+        .container strong.special:hover {
+            color: white;
+            background-color: transparent;
+            cursor: pointer;
+        }
+
+        .container strong.special:active {
+
+            background-color: blue;
+
+        } */
+
+        .container a.special {
+            color: white;
+        }
+
+        input:focus {
+            outline: none;
+            border: 3px solid coral;
+        }
+
+        ul li:first-child {
+            color: red;
+        }
+
+        ul li:nth-child(3) {
+            color: aqua;
+        }
+
+        ul li:last-child {
+            color: blue;
+        }
+
+        .box {
+            display: block;
+            background-color: aquamarine;
+        }
+
+        .box:first-of-type {
+            background-color: #e91e63;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>
+        Lorem ipsum <span class="special">dolor</span>
+    </h1>
+
+    <input type="text" name="" id="" value="test">
+    <div class="container">
+        <p>Lorem ipsum dolor sit <strong class="special">amet consectetur</strong>, adipisicing elit. Nobis fugit earum,
+            tenetur aliquam recusandae
+            corporis, voluptatum sequi ipsum, nisi quae numquam repellat esse illum veniam quo omnis magni labore
+            cumque!</p>
+        <a class="special" href="http://google.it">google.it</a> <a href="http://epicode.it">epicode.it</a>
+    </div>
+
+    <ul>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+        <li>item5</li>
+    </ul>
+    <span>span vuoto</span>
+    <div>
+        <h2>titolo</h2>
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
+
+</body>
+
+</html>
